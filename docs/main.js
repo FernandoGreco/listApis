@@ -244,7 +244,7 @@ var HomeComponent = /** @class */ (function () {
         this.listaApis = [];
     }
     HomeComponent.prototype.ngOnInit = function () {
-        this.carregaApis();
+        // this.carregaApis()
     };
     HomeComponent.prototype.carregaApis = function () {
         var _this = this;
