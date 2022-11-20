@@ -1,0 +1,31 @@
+<header>
+  <h1>Lista de APIS / List of APIS</h1>
+</header>
+
+
+<table>
+  <tr>
+    <th>API</th>
+    <th>Description</th>
+    <th>Auth</th>    
+    <th>HTTPS</th>
+    <th>Cors</th>
+    <th>Link</th>
+    <th>Category</th>
+  </tr>
+
+
+
+  <tr *ngFor="let post of listaApis?.entries">
+    <td>{{ post.API }}</td>
+    <td>{{ post.Description}}</td>
+    <td>{{ post.Auth }}</td>
+    <td>{{ post.HTTPS }}</td>
+    <td>{{ post.Cors }}</td>
+    <td>{{ post.Link }}</td>
+    <td>{{ post.Category }}</td>
+  </tr>
+
+
+
+</table>
