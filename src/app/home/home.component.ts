@@ -16,7 +16,7 @@ export class HomeComponent implements OnInit {
   listaApis  = [] as Apis[]
 
   ngOnInit() {
-  // this.carregaApis()
+   this.carregaApis()
   }
 
   
